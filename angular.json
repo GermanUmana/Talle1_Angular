@@ -40,7 +40,7 @@
           "options": {
             "outputPath": "dist/entrega1",
             "index": "src/app/app.component.html",
-            "browser": "src/app.component.ts",
+            "browser": "src/app/app.component.ts",
             "polyfills": [
               "zone.js"
             ],
