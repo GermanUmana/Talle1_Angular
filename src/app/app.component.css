@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif; /* Define la fuente para toda la página */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    margin: 0;
+    padding: 20px;
+    background-color: #bfd1e5; /* Color de fondo claro */
+}
+
+.container {
+    width: 80%; /* Ancho del contenedor */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    background-color: #fff; /* Fondo blanco para el contenido */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+h1 {
+    color: #333; /* Color del título principal */
+    text-align: center; /* Centra el título */
+}
+
+p {
+    color: #555; /* Color del texto de los párrafos */
+    margin-bottom: 15px; /* Espacio debajo de cada párrafo */
+}
+
+
+

@@ -1,15 +1,16 @@
 
-<h1>Germán Umaña, {{ title }}</h1>
-      
-<h2>{{ subtitle }}</h2>
-<p>Congratulations! Your app is runningg. 🎉</p>
-<p>Uso de Pipes Date: {{fecha|date:'medium'}}</p>
-<p>Uso de uppercase: Original {{nombre}} cuando use uppercase {{nombre| uppercase}}</p>
-<p>Uso de ngFor: </p>
-<ul *ngIf="isListVisible">
-  <li *ngFor="let item of items">{{item}}</li>
-</ul>
-<button (click)="toggleList()">Ocultar/Mostrar Lista</button>
-<p>Se Oculta Lista Usando *ngIf </p>
+<body>
+  <h1>Germán Umaña, {{ title }}</h1>      
+  <h2>{{ subtitle }}</h2>
+  <p> 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉</p>
+  <p>Uso de Pipes Date: {{fecha|date:'medium'}}</p>
+  <p>Uso de uppercase: Original {{nombre}} cuando use uppercase {{nombre| uppercase}}</p>
+  <p>Uso de ngFor: </p>
+  <ul *ngIf="isListVisible">
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>
+  <button (click)="toggleList()">Ocultar/Mostrar Lista</button>
+  <p>Se Oculta Lista Usando *ngIf </p>
 
-<app-producto-card [nombre]="nombrePadre"></app-producto-card>
+  <app-producto-card [nombre]="nombrePadre"></app-producto-card>
+</body>
