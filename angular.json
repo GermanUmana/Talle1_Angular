@@ -39,8 +39,8 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/entrega1",
-            "index": "src/index.html",
-            "browser": "src/main.ts",
+            "index": "src/app/app.component.html",
+            "browser": "src/app.component.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -52,7 +52,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/app/app.component.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
